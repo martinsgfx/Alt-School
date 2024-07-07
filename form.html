@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div>
+            <img src="/img/signup.png" alt="image">
+            <br>
+            <h1>Learn highly sought <br>
+                after skills without <br>
+                hassle.
+            </h1>
+            <h6>
+                Tel: 0800ALTSCHOOL <br>
+                ©2024 AltSchool Africa. All rights reserved.
+            </h6>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h1>Sign Up</h1>
+            <p>Take the next steps to apply at AltSchool Africa</p>
+    
+            <form action="/submit" method="POST">
+    
+                <!-- First and Last Name -->
+    
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+    
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+    
+                <br>
+    
+                <!-- Gender -->
+    
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+    
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+    
+                <br>
+    
+                <!-- Email and Phone Number -->
+    
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <br>
+    
+                <!-- Country and State -->
+    
+                <label for="country">Country</label>
+                <select name="country" id="country" required>
+                    <option value="">Select your country</option>
+                    <option value="Nigeria">Nigeria</option>
+                </select>
+    
+                <label for="state">State of Residence</label>
+                <input type="text" name="state" id="state" required>
+    
+                <br>
+    
+                <!-- How did you hear about us -->
+                
+                <label for="referral">How did you hear about us?</label>
+                <select name="referral" id="referral" required>
+                    <option value="">Select Channel</option>
+                    <option value="Instagram">Instagram</option>
+                </select>
+    
+                <br>
+    
+                <!-- Passwords -->
+    
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+    
+                <label for="confirm-password">Confirm Password</label>
+                <input type="confirm-password" name="confirm-password" id="confirm-password" required>
+    
+                <br>
+    
+                <p>
+                    By clicking continue, I agree to <a href="https://www.altschoolafrica.com/terms-and-conditions">Terms of Use</a>  and acknowledge that I have read the <a href="https://www.altschoolafrica.com/privacy-policy">Privacy Policy</a>
+                </p>
+    
+                <button type="submit">Submit</button>
+    
+    
+            </form>  
+            
+        </div>
+    </section>
+
+    
+
+    
+
+    
+</body>
+</html>
