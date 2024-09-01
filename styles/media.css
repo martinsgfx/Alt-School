@@ -183,12 +183,17 @@ footer p {
 
   footer {
     text-align: center;
-    padding-right: 0px;
+    padding: 0px;
     background-color: aliceblue;
+    
   }
 
   footer p {
+    text-align: center;
     font-size: small;
     padding: 10px 0px;
   }
+
+
+
 }
